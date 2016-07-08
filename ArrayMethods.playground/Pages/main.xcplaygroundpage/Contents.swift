@@ -16,6 +16,13 @@
  */
 // write your code here
 
+var daysOfTheWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+var i = 0
+for (day) in daysOfTheWeek.enumerate() {
+    print(daysOfTheWeek[i])
+    i += 1
+}
+
 
 
 
@@ -38,7 +45,11 @@
  */
 // write your code here
 
+var emptyArray: [String] = ["string one", "string two"]
 
+emptyArray.removeAll()
+
+print(emptyArray)
 
 
 
@@ -63,6 +74,8 @@
  */
 // write your code here
 
+print(daysOfTheWeek.count)
+
 
 
 
@@ -75,6 +88,8 @@
  */
 // write your code here
 
+daysOfTheWeek.append("Saturday")
+daysOfTheWeek.append("Sunday")
 
 
 
@@ -86,7 +101,10 @@
  */
 // write your code here
 
+var sun = daysOfTheWeek.popLast()
 
+daysOfTheWeek.insert(sun!, atIndex:0)
+print(daysOfTheWeek)
 
 
 
@@ -98,11 +116,13 @@
  */
 // write your code here
 
+var lowDay: [String] = []
+for (i, day) in daysOfTheWeek.enumerate() {
+    lowDay.append(daysOfTheWeek[i].lowercaseString)
+}
 
-
-
-
-
+print("LOW: \(lowDay)")
+print(daysOfTheWeek)
 
 
 /*: question9
@@ -110,6 +130,12 @@
  */
 // write your code here
 
+if daysOfTheWeek.count > 5 {
+   var i = 0
+    idi > 5 {
+        
+    }
+}
 
 
 
